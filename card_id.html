@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <style>
+        .logoID {
+            object-fit: contain;
+            width: 125px;
+            height: 125px;
+        }
+
+        .pictureID {
+            object-fit: contain;
+            width: 300px;
+            height: 300px;
+            border: solid 0.3rem black;
+        }
+
+        @media screen and (max-width: 1400px) {
+            .pictureID {
+                object-fit: contain;
+                width: 140px;
+                height: 150px
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .pictureID {
+                object-fit: contain;
+                width: 200px;
+                height: 200px
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .pictureID {
+                object-fit: contain;
+                width: 180px;
+                height: 180px
+            }
+
+            .txtInfo_output {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .logoID {
+                object-fit: contain;
+                width: 100px;
+                height: 100px;
+            }
+
+            .pictureID {
+                object-fit: contain;
+                width: 130px;
+                height: 130px
+            }
+        }
+
+        .h3-titled {
+            font-size: 1.7rem;
+            font-weight: 100
+        }
+
+        .h2-titled {
+            font-size: 1.8rem;
+            font-weight: 200
+        }
+
+        .h1-titled {
+            font-size: 2rem;
+            font-weight: 600
+        }
+
+        .txtInfo_ID {
+            font-size: 1.5rem;
+            color: rgb(3, 3, 3);
+            font-weight: 500
+        }
+
+        .txtInfo_output {
+            font-size: 1.9rem;
+            font-weight: bold;
+            color: rgb(0, 0, 0)
+        }
+
+        .varcodeID {
+            width: 100%;
+            height: 157px;
+            object-fit: contain
+        }
+        #frame-id{
+            position: relative;
+            top: -40px;
+        }
+    </style>
+
+    <title>System Picture</title>
+
+</head>
+
+<body>
+    <div class="container pt-3" style="width:992px">
+        <div class="card" style="border-color: black;">
+            <!-- Card header =============================================================================== -->
+            <div class="card-header mb-0"
+                style="background-color:#597D35!important; color:white!important; padding: 1px;">
+                <div class="row" style="padding-left: 5%;">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0 mr-5">
+                            <img src="https://killian.beecr8tive.net/alpha/unexsys/images/logo.png" class="logoID">
+                        </div>
+                        <div class="flex-grow-1 ms-3 mr-1">
+                            <div class="h3-titled">Department of Agricultural</div>
+                            <div class="h2-titled">ARGICULTURAL TRAINING INSTITUTE</div>
+                            <div class="h1-titled">Agricultural Extension Workers Registry System</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card body ================================================================================= -->
+            <div class="card-body mt-0" style="background-color:white!important;">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 mr-4 mb-19" id="frame-id">
+                        <img src="https://png.pngitem.com/pimgs/s/678-6785836_my-account-icon-png-png-download-instagram-profile.png"
+                            class="pictureID">
+                            <div class="text-center ml-5">
+                                <img src="https://www.kindpng.com/picc/m/31-314366_meryl-streep-signature-meryl-streep-autograph-png-transparent.png"
+                                    width="250px" height="100px">
+                                <h3 style="font-style: italic;">Signature</h3>
+                            </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3 ml-4 mb-2">
+                        <div class="txtInfo_ID" style="font-style: italic;">ID No.</div>
+                        <div class="txtInfo_output">LCA000001</div>
+                        <div class="txtInfo_ID" style="font-style: italic;">Last Name</div>
+                        <div class="txtInfo_output"><b>DELA CRUZ</b></div>
+                        <div class="txtInfo_ID" style="font-style: italic;">Given Name</div>
+                        <div class="txtInfo_output"><b>MARIA</b></div>
+                        <div class="txtInfo_ID" style="font-style: italic;">Middle Initial</div>
+                        <div class="txtInfo_output">
+                            <b>A.</b>
+                        </div>
+                        <div class="txtInfo_ID" style="font-style: italic;">Office</div>
+                        <div class="txtInfo_output">Municipal Agricultural Offce of Banaue, Ifugao</div>
+                        <div class="txtInfo_ID" style="font-style: italic;">Office Address</div>
+                        <div class="txtInfo_output">Poblacion, Banaue, Ifugao </div>
+                    </div>
+                </div>
+                <div class="text-center p-1" style="background-color:#b7c02f;">
+                    <h1><b>MUNICIPALAGRICULTURIST</b></h1>
+                </div>
+            </div>
+            <div class="card-footer" style="border-color: white; padding:2px;">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
